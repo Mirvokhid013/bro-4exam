@@ -129,8 +129,9 @@
 }
 
 .form__check {
-    width: 16px;
-    height: 16px;
+    flex-shrink: 0;
+    width: 18px;
+    height: 18px;
     display: inline-block;
 }
 
@@ -202,6 +203,7 @@
     font-weight: 700;
     line-height: normal;
 }
+
 
 @media only screen and (min-width: 540px) {
 
