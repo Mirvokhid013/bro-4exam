@@ -1,0 +1,38 @@
+.card__service {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    row-gap: 21px;
+}
+
+
+.service__label {
+    display: flex;
+    align-items: center;
+    column-gap: 23px;
+    width: 284px;
+    padding: 24px 26px;
+    border-radius: 16px;
+    border: 2px solid #eff0f6;
+    background-color: #fff;
+    box-shadow: 0px 2px 6px 0px rgba(19, 18, 66, 0.07);
+}
+
+.label-span {
+    color:  #170f49;
+    font-family: "DM Sans", "Arial", "sans-serif";
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 20px;
+}
+
+.card__service-input:checked ~ .service__label {
+    border: 2px solid  #4a3aff;
+    box-shadow: 0px 4px 10px 0px rgba(31, 37, 89, 0.07), 0px 2px 11px 0px rgba(69, 65, 164, 0.06);
+}
+
+@media only screen and (min-width: 710px) {
+    .card__service {
+        justify-content: space-between;
+    }
+}

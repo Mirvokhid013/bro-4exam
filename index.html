@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+    <header class="site-header">
+        <div class="container">
+            <div class="site-header__inner">
+                <a href="./index.html" class="logo-link">
+                    <img src="./images/logo.svg" alt="Brix Templates logo" class="logo-img">
+                </a>
+                <a href="#" class="site-header__register">Register</a>
+            </div>
+        </div>
+    </header>
+    <main class="site-main">
+        <section class="site-main__register register">
+            <div class="container">
+                <div class="register__inner">
+                    <h1 class="register__title">Welcome</h1>
+                    <p class="register__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quam duis vitae curabitur amet, fermentum lorem. </p>
+                    <form class="form">
+                        <div class="form__input-wrapper">
+                            <div id="name-w" class="box name-wrapper">
+                                <label class="form__label">First name *</label>
+                                <input type="text" class="form__input form-name" aria-label="Your name" placeholder="Your name" required>
+                                <span class="name-invalid span">Minimum text character must be 2</span>
+                            </div>
+                            <div class="box lname-wrapper">
+                                <label class="form__label">Last name *</label>
+                                <input type="text" class="form__input form-lname" aria-label="Your last name" placeholder="Your last name" required>
+                                <span class="lname-invalid span">Minimum text character must be 2</span>
+                            </div>
+                        </div>
+                        <div class="box email-wrapper">
+                            <label class="form__label">E-mail *</label>
+                            <input type="email" class="form__input form-email" aria-label="yourmail@gmail.com" placeholder="yourmail@gmail.com" required>
+                            <svg class="email-img" xmlns="http://www.w3.org/2000/svg" width="19" height="18" viewBox="0 0 19 18" fill="none">
+                                <path opacity="0.2" d="M16.7109 3.9375L9.96094 10.125L3.21094 3.9375H16.7109Z" fill="currentColor"/>
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M2.79629 3.55741C3.00621 3.3284 3.36203 3.31293 3.59104 3.52285L9.96094 9.36193L16.3308 3.52285C16.5599 3.31293 16.9157 3.3284 17.1256 3.55741C17.3355 3.78641 17.32 4.14223 17.091 4.35215L10.341 10.5397C10.126 10.7368 9.7959 10.7368 9.58085 10.5397L2.83085 4.35215C2.60184 4.14223 2.58637 3.78641 2.79629 3.55741Z" fill="currentColor"/>
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M2.64844 3.9375C2.64844 3.62684 2.90028 3.375 3.21094 3.375H16.7109C17.0216 3.375 17.2734 3.62684 17.2734 3.9375V13.5C17.2734 13.7984 17.1549 14.0845 16.9439 14.2955C16.733 14.5065 16.4468 14.625 16.1484 14.625H3.77344C3.47507 14.625 3.18892 14.5065 2.97794 14.2955C2.76696 14.0845 2.64844 13.7984 2.64844 13.5V3.9375ZM3.77344 4.5V13.5H16.1484V4.5H3.77344Z" fill="currentColor"/>
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M9.14503 8.61981C9.35501 8.84876 9.33962 9.20459 9.11067 9.41456L3.76692 14.3153C3.53796 14.5253 3.18214 14.5099 2.97216 14.281C2.76219 14.052 2.77757 13.6962 3.00653 13.4862L8.35028 8.58544C8.57923 8.37547 8.93506 8.39085 9.14503 8.61981Z" fill="currentColor"/>
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M10.7769 8.61981C10.9868 8.39085 11.3426 8.37547 11.5716 8.58544L16.9154 13.4862C17.1443 13.6962 17.1597 14.052 16.9497 14.281C16.7397 14.5099 16.3839 14.5253 16.155 14.3153L10.8112 9.41456C10.5823 9.20459 10.5669 8.84876 10.7769 8.61981Z" fill="currentColor"/>
+                            </svg>
+                            <span class="email-invalid span">The last letters of the email must end with @gmail.com</span>
+                        </div>
+                        <div class="box password-wrapper">
+                            <label class="form__label">Password *</label>
+                            <input type="password" class="form__input form-pass" aria-label="Enter your password" placeholder="•••••••••••••" required>
+                            <button type="button" class="password__btn btn-pass">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="19" height="18" viewBox="0 0 19 18" fill="none">
+                                    <path opacity="0.2" d="M9.96094 3.9375C4.33594 3.9375 2.08594 9 2.08594 9C2.08594 9 4.33594 14.0625 9.96094 14.0625C15.5859 14.0625 17.8359 9 17.8359 9C17.8359 9 15.5859 3.9375 9.96094 3.9375ZM9.96094 11.8125C9.40468 11.8125 8.86091 11.6476 8.3984 11.3385C7.93588 11.0295 7.5754 10.5902 7.36253 10.0763C7.14965 9.56238 7.09396 8.99688 7.20248 8.45131C7.311 7.90574 7.57886 7.4046 7.9722 7.01126C8.36553 6.61793 8.86667 6.35006 9.41225 6.24154C9.95782 6.13302 10.5233 6.18872 11.0372 6.40159C11.5512 6.61446 11.9904 6.97495 12.2994 7.43746C12.6085 7.89997 12.7734 8.44374 12.7734 9C12.7734 9.74592 12.4771 10.4613 11.9497 10.9887C11.4222 11.5162 10.7069 11.8125 9.96094 11.8125Z" fill="currentColor"/>
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M3.51631 6.071C4.85722 4.7301 6.96136 3.375 9.96094 3.375C12.9605 3.375 15.0647 4.7301 16.4056 6.071C17.0744 6.73983 17.5567 7.40768 17.8725 7.90928C18.0307 8.16051 18.1479 8.37132 18.2266 8.52147C18.2659 8.59658 18.2957 8.65664 18.3161 8.69912C18.3263 8.72037 18.3342 8.73724 18.3399 8.74941L18.3466 8.76411L18.3487 8.76875L18.3494 8.77038L18.3497 8.77102C18.3498 8.77129 18.35 8.77155 17.8359 9C18.35 9.22845 18.3498 9.22871 18.3497 9.22898L18.3494 9.22962L18.3487 9.23125L18.3466 9.23589L18.3399 9.25059C18.3342 9.26276 18.3263 9.27963 18.3161 9.30088C18.2957 9.34336 18.2659 9.40342 18.2266 9.47853C18.1479 9.62868 18.0307 9.83949 17.8725 10.0907C17.5567 10.5923 17.0744 11.2602 16.4056 11.929C15.0647 13.2699 12.9605 14.625 9.96094 14.625C6.96136 14.625 4.85722 13.2699 3.51631 11.929C2.84749 11.2602 2.3652 10.5923 2.04938 10.0907C1.8912 9.83949 1.77397 9.62868 1.69532 9.47853C1.65598 9.40342 1.62622 9.34336 1.60577 9.30088C1.59554 9.27963 1.58762 9.26276 1.582 9.25059L1.57526 9.23589L1.57317 9.23125L1.57244 9.22962L1.57215 9.22898C1.57203 9.22871 1.57192 9.22845 2.08594 9C1.57192 8.77155 1.57203 8.77129 1.57215 8.77102L1.57244 8.77038L1.57317 8.76875L1.57526 8.76411L1.582 8.74941C1.58762 8.73724 1.59554 8.72037 1.60577 8.69912C1.62622 8.65664 1.65598 8.59658 1.69532 8.52147C1.77397 8.37132 1.8912 8.16051 2.04938 7.90928C2.3652 7.40768 2.84749 6.73983 3.51631 6.071ZM2.08594 9L1.57192 8.77155C1.50728 8.91699 1.50728 9.08301 1.57192 9.22845L2.08594 9ZM2.71488 9C2.78105 9.12396 2.87608 9.29228 3.0014 9.49131C3.28323 9.93893 3.71501 10.5367 4.31181 11.1335C5.50216 12.3239 7.33551 13.5 9.96094 13.5C12.5864 13.5 14.4197 12.3239 15.6101 11.1335C16.2069 10.5367 16.6386 9.93893 16.9205 9.49131C17.0458 9.29228 17.1408 9.12396 17.207 9C17.1408 8.87604 17.0458 8.70772 16.9205 8.50869C16.6386 8.06107 16.2069 7.4633 15.6101 6.8665C14.4197 5.67615 12.5864 4.5 9.96094 4.5C7.33551 4.5 5.50216 5.67615 4.31181 6.8665C3.71501 7.4633 3.28323 8.06107 3.0014 8.50869C2.87608 8.70772 2.78105 8.87604 2.71488 9ZM17.8359 9L18.35 9.22845C18.4146 9.08301 18.4146 8.91699 18.35 8.77155L17.8359 9Z" fill="currentColor"/>
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M9.96094 6.75C8.7183 6.75 7.71094 7.75736 7.71094 9C7.71094 10.2426 8.7183 11.25 9.96094 11.25C11.2036 11.25 12.2109 10.2426 12.2109 9C12.2109 7.75736 11.2036 6.75 9.96094 6.75ZM6.58594 9C6.58594 7.13604 8.09698 5.625 9.96094 5.625C11.8249 5.625 13.3359 7.13604 13.3359 9C13.3359 10.864 11.8249 12.375 9.96094 12.375C8.09698 12.375 6.58594 10.864 6.58594 9Z" fill="currentColor"/>
+                                </svg>
+                            </button>
+                            <span class="pass-invalid span">Password should be lass than 8 character</span>
+                        </div>
+                        <div class="box rpassword-wrapper">
+                            <label class="form__label">Repeat Password *</label>
+                            <input type="password" class="form__input form-rpass" aria-label="Repeat your password" placeholder="•••••••••••••" required>
+                            <button type="button" class="password__btn btn-rpass">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="19" height="18" viewBox="0 0 19 18" fill="none">
+                                    <path opacity="0.2" d="M9.96094 3.9375C4.33594 3.9375 2.08594 9 2.08594 9C2.08594 9 4.33594 14.0625 9.96094 14.0625C15.5859 14.0625 17.8359 9 17.8359 9C17.8359 9 15.5859 3.9375 9.96094 3.9375ZM9.96094 11.8125C9.40468 11.8125 8.86091 11.6476 8.3984 11.3385C7.93588 11.0295 7.5754 10.5902 7.36253 10.0763C7.14965 9.56238 7.09396 8.99688 7.20248 8.45131C7.311 7.90574 7.57886 7.4046 7.9722 7.01126C8.36553 6.61793 8.86667 6.35006 9.41225 6.24154C9.95782 6.13302 10.5233 6.18872 11.0372 6.40159C11.5512 6.61446 11.9904 6.97495 12.2994 7.43746C12.6085 7.89997 12.7734 8.44374 12.7734 9C12.7734 9.74592 12.4771 10.4613 11.9497 10.9887C11.4222 11.5162 10.7069 11.8125 9.96094 11.8125Z" fill="currentColor"/>
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M3.51631 6.071C4.85722 4.7301 6.96136 3.375 9.96094 3.375C12.9605 3.375 15.0647 4.7301 16.4056 6.071C17.0744 6.73983 17.5567 7.40768 17.8725 7.90928C18.0307 8.16051 18.1479 8.37132 18.2266 8.52147C18.2659 8.59658 18.2957 8.65664 18.3161 8.69912C18.3263 8.72037 18.3342 8.73724 18.3399 8.74941L18.3466 8.76411L18.3487 8.76875L18.3494 8.77038L18.3497 8.77102C18.3498 8.77129 18.35 8.77155 17.8359 9C18.35 9.22845 18.3498 9.22871 18.3497 9.22898L18.3494 9.22962L18.3487 9.23125L18.3466 9.23589L18.3399 9.25059C18.3342 9.26276 18.3263 9.27963 18.3161 9.30088C18.2957 9.34336 18.2659 9.40342 18.2266 9.47853C18.1479 9.62868 18.0307 9.83949 17.8725 10.0907C17.5567 10.5923 17.0744 11.2602 16.4056 11.929C15.0647 13.2699 12.9605 14.625 9.96094 14.625C6.96136 14.625 4.85722 13.2699 3.51631 11.929C2.84749 11.2602 2.3652 10.5923 2.04938 10.0907C1.8912 9.83949 1.77397 9.62868 1.69532 9.47853C1.65598 9.40342 1.62622 9.34336 1.60577 9.30088C1.59554 9.27963 1.58762 9.26276 1.582 9.25059L1.57526 9.23589L1.57317 9.23125L1.57244 9.22962L1.57215 9.22898C1.57203 9.22871 1.57192 9.22845 2.08594 9C1.57192 8.77155 1.57203 8.77129 1.57215 8.77102L1.57244 8.77038L1.57317 8.76875L1.57526 8.76411L1.582 8.74941C1.58762 8.73724 1.59554 8.72037 1.60577 8.69912C1.62622 8.65664 1.65598 8.59658 1.69532 8.52147C1.77397 8.37132 1.8912 8.16051 2.04938 7.90928C2.3652 7.40768 2.84749 6.73983 3.51631 6.071ZM2.08594 9L1.57192 8.77155C1.50728 8.91699 1.50728 9.08301 1.57192 9.22845L2.08594 9ZM2.71488 9C2.78105 9.12396 2.87608 9.29228 3.0014 9.49131C3.28323 9.93893 3.71501 10.5367 4.31181 11.1335C5.50216 12.3239 7.33551 13.5 9.96094 13.5C12.5864 13.5 14.4197 12.3239 15.6101 11.1335C16.2069 10.5367 16.6386 9.93893 16.9205 9.49131C17.0458 9.29228 17.1408 9.12396 17.207 9C17.1408 8.87604 17.0458 8.70772 16.9205 8.50869C16.6386 8.06107 16.2069 7.4633 15.6101 6.8665C14.4197 5.67615 12.5864 4.5 9.96094 4.5C7.33551 4.5 5.50216 5.67615 4.31181 6.8665C3.71501 7.4633 3.28323 8.06107 3.0014 8.50869C2.87608 8.70772 2.78105 8.87604 2.71488 9ZM17.8359 9L18.35 9.22845C18.4146 9.08301 18.4146 8.91699 18.35 8.77155L17.8359 9Z" fill="currentColor"/>
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M9.96094 6.75C8.7183 6.75 7.71094 7.75736 7.71094 9C7.71094 10.2426 8.7183 11.25 9.96094 11.25C11.2036 11.25 12.2109 10.2426 12.2109 9C12.2109 7.75736 11.2036 6.75 9.96094 6.75ZM6.58594 9C6.58594 7.13604 8.09698 5.625 9.96094 5.625C11.8249 5.625 13.3359 7.13604 13.3359 9C13.3359 10.864 11.8249 12.375 9.96094 12.375C8.09698 12.375 6.58594 10.864 6.58594 9Z" fill="currentColor"/>
+                                </svg>
+                            </button>
+                            <span class="rpass-invalid span">Password are different</span>
+                        </div>
+                        <div class="select-wrapper">
+                            <select class="form__select" required>
+                                <option selected hidden>Select your gender</option>
+                                <option value="male">Male</option>
+                                <option value="female">Female</option>
+                            </select>
+                            <span class="select__span">Gender *</span>
+                        </div>
+                        <div class="box date-wrapper">
+                            <label class="form__label" >Birthday *</label>
+                            <input type="date" class="form__input form-date" aria-label="Enter your Birthday" placeholder="DD / MM / YYYY" required>
+                            
+                        </div>
+                        <div class="form__check-box">
+                            <input class="form__check" type="checkbox" required>
+                            <p class="form__check-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. <span class="form__check-span">Gravida eget ultricies</span> pharetra scelerisque duis cursus.</p>
+                        </div>
+                        <button class="form__btn" type="submit">Enter</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <section class="site-main__hero hero">
+            <div class="container">
+                <form id="carouselExample" class="hero__inner-form carousel slide">
+                    <h2 class="hero__title">Get a project quote</h2>
+                    <p class="hero__text">Please fill the form below to receive a quote for your project. Feel free to add as much detail as needed.</p>
+                    <ul class="hero__list carousel-inner">
+                        <li class="hero__item card-1 carousel-item active">
+                            <img src="./images/carusel1.svg" alt="" class="card__img">
+                            <h3 class="card__title">Contact details</h3>
+                            <p class="card__text">Lorem ipsum dolor sit amet consectetur adipisc.</p>
+                            <div class="card__box">
+                                <label class="card__label card__label--name">
+                                    Name
+                                    <input type="text" class="card__input card__input--name" placeholder="John Carter" aria-label="John Carter">
+                                    <span class="error-name error-span">min 2ta so'z, va max 30 ta so'zga tekshirilishi kerak</span>
+                                </label>
+                                <label class="card__label card__label--email">
+                                    Email 
+                                    <input type="email" class="card__input card__input--email" placeholder="Email address" aria-label="Email address">
+                                    <span class="error-email error-span">E-mail da ohiri @gmail.com va @mail.ru bilan tugashi kerak</span>
+                                </label>
+                                <label class="card__label card__label--third">
+                                    Phone Number
+                                    <input type="number" class="card__input card__input--number" placeholder="(123) 456 - 7890" aria-label="Enter your phone number">
+                                    <span class="error-number error-span">Nomer formati 13ta raqamdan kam bo'lmasligi kerak</span>
+                                </label>
+                                <label class="card__label card__label--last">
+                                    Company
+                                    <input type="text" class="card__input card__input--company" placeholder="Company name" aria-label="Company name">
+                                    <span class="error-company error-span">Company nomi uzunligi 3tadan kam va 20 tadan ko'p bolmasligi kerak</span>
+                                </label>
+                            </div>
+                        </li>
+                        <li class="hero__item card-2 block-card carousel-item">
+                            <img src="./images/carusel2.svg" alt="" class="card__img">
+                            <h3 class="card__title">Our services</h3>
+                            <p class="card__text">Please select which service you are interested in.</p>
+                            <div class="card__service">
+                                <div class="service__input-wrapper">
+                                    <input class="card__service-input input-first visually-hidden" id="development" type="radio" name="radio_checkkk" value="Development" required>
+                                    <label class="service__label" for="development">
+                                        <img src="./images/coder.svg" alt="">
+                                        <span class="label-span">Development</span>
+                                    </label>
+                                </div>
+                                <div class="service__input-wrapper">
+                                    <input class="card__service-input input-second visually-hidden" id="Web_Design" type="radio" name="radio_checkkk" value="Web Design" required>
+                                    <label class="service__label" for="Web_Design">
+                                        <img src="./images/designer.svg" alt="">
+                                        <span class="label-span">Web Design</span>
+                                    </label>
+                                </div>
+                                <div class="service__input-wrapper">
+                                    <input class="card__service-input input-third visually-hidden" id="Marketing" type="radio" name="radio_checkkk" value="Marketing" required>
+                                    <label class="service__label" for="Marketing">
+                                        <img src="./images/marketolog.svg" alt="">
+                                        <span class="label-span">Marketing</span>
+                                    </label>
+                                </div>
+                                <div class="service__input-wrapper">
+                                    <input class="card__service-input input-fourth visually-hidden" id="Other" type="radio" name="radio_checkkk" value="Other" required>
+                                    <label class="service__label" for="Other">
+                                        <img src="./images/setters.svg" alt="">
+                                        <span class="label-span">Other</span>
+                                    </label>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="hero__item card-3 carousel-item">
+                            <img src="./images/carusel3.svg" alt="" class="card__img">
+                            <h3 class="card__title">What’s your project budget?</h3>
+                            <p class="card__text">Please select the project budget range you have in mind.</p>
+                            <div class="budget-box">
+                                <div class="budget__item">
+                                    <input type="radio" name="budget__name" class="budget__input budget__input1" id="radio1" value="$5.000 - $10.000">
+                                    <label class="budget__label" for="radio1">$5.000 - $10.000</label>
+                                </div>
+                                <div class="budget__item">
+                                    <input type="radio" name="budget__name" class="budget__input budget__input2" id="radio2" value="$10.000 - $20.000">
+                                    <label class="budget__label" for="radio2">$10.000 - $20.000</label>
+                                </div>
+                                <div class="budget__item">
+                                    <input type="radio" name="budget__name" class="budget__input budget__input3" id="radio3" value="$20.000 - $50.000">
+                                    <label class="budget__label" for="radio3">$20.000 - $50.000</label>
+                                </div>
+                                <div class="budget__item">
+                                    <input type="radio" name="budget__name" class="budget__input budget__input4" id="radio4" value="$50.000 +">
+                                    <label class="budget__label" for="radio4">$50.000 +</label>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="hero__item card-4 carousel-item">
+                            <img src="./images/carusel4.svg" alt="" class="card__img">
+                            <img src="./images/cheek.svg" alt="" class="success__img" width="157" height="143">
+                            <h3 class="success__title">Submit your quote request</h3>
+                            <p class="success__text">Please review all the information you previously typed in the past steps, and if all is okay, submit your message to receive a project quote in 24 - 48 hours.</p>
+                            <button class="success__btn" type="submit">Preview</button>
+                        </li>
+                    </ul>
+                    <div class="carousel-wrapper">
+                        <button class="carousel-control-prev carousel-btn-previous" data-bs-target="#carouselExample" data-bs-slide="prev">Previous step</button>
+                        <button class="carousel-control-next carousel-btn-next" data-bs-target="#carouselExample" data-bs-slide="next">Next step</button>
+                    </div>
+                </form>
+            </div>
+        </section>  
+        <section class="site-main__result result">
+            <div class="container">
+                <div class="result__inner">
+                    <h2 class="result__title">Project description</h2>
+                    <ul class="result__list">
+                        <li class="result__item">
+                            NAME : 
+                            <span class="result__lab-span result__item-span-1"></span>
+                        </li>
+                        <li class="result__item">
+                            EMAIL : 
+                            <span class="result__lab-span result__item-span-2"></span>
+                        </li>
+                        <li class="result__item">
+                            CONTACT : +
+                            <span class="result__lab-span result__item-span-3"></span>
+                        </li>
+                        <li class="result__item">
+                            COMPANY : 
+                            <span class="result__lab-span result__item-span-4"></span>
+                        </li>
+                        <li class="result__item">
+                            SERVICE : 
+                            <span class="result__lab-span result__item-span-5"></span>
+                        </li>
+                        <li class="result__item">
+                            BUDGET : 
+                            <span class="result__lab-span result__item-span-6"></span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>   
+    </main>
+    <footer class="site-footer">
+        <div class="container">
+            <div class="site-footer__inner footer">
+                <div class="footer__box">
+                    <a href="./index.html" class="footer__logo-link">
+                        <img src="./images/logo.svg" alt="brix templates logo" class="footer__logo-img">
+                    </a>
+                    <p class="footer__text">Copyright © 2021 BRIX Templates | All Rights Reserved</p>
+                </div>
+                <form class="footer__form fform">
+                    <input type="email" class="fform__input" placeholder="Enter your email" aria-label="Enter your email">
+                    <button class="fform__btn" type="submit">Subscribe</button>
+                </form>
+            </div>
+        </div>
+    </footer>
+    <script src="./js/bootstrap.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+</html>

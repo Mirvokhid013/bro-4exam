@@ -1,0 +1,20 @@
+:root {
+    --main-text-color : #fff;
+    --input-placeholder-color: #6c727f;
+    --input-label-color: #121826;
+    --input-span-color: #ff0707;
+    --eye-btn-color: #6c727f;
+    --result--input-value-value: #6f6c90;
+    --result-border-color: #eff0f6;
+    --result-label-color: #170F49;
+}
+
+.invalid {
+    --input-placeholder-color: #ed0202;
+    --input-border-color: #f90909;
+    --input-label-color: #f90909;
+    --eye-btn-color: #ef5da8;
+    --result--input-value-value: #ed0202;
+    --result-border-color: #ed0202;
+    --result-label-color: #f90909;
+}

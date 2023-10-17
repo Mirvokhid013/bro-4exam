@@ -1,0 +1,221 @@
+.site-main__hero {
+    display: none;
+    padding-top: 22px;
+    padding-bottom: 50px;
+}
+
+.hero__inner-form {
+    max-width: 698px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.hero__title {
+    margin-bottom: 12px;
+    color: #170f49;
+    text-align: center;
+    font-family: "DM Sans", "Arial", "sans-serif";
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 46px;
+}
+
+.hero__text {
+    max-width: 566px;
+    width: 100%;
+    margin: 0 auto 43px;
+    color: #6f6c90;
+    text-align: center;
+    font-family: "DM Sans", "Arial", "sans-serif";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.hero__list {
+    margin-bottom: 32px;
+    padding: 33px 50px 80px 50px;
+    border-radius: 34px;
+    border: 1px solid  #eff0f6;
+    background-color: #fff;
+    box-shadow: 0px 5px 16px 0px rgba(8, 15, 52, 0.06);
+}
+
+.card__img {
+    margin: 0 auto;
+    max-width: 538px;
+    width: 100%;
+    padding-bottom: 33px;
+    border-bottom: 1px solid #d9dbe9;
+}
+
+.card__title {
+    margin-top: 64px;
+    margin-bottom: 8px;
+    color: #170f49;
+    font-family: "DM Sans", "Arial", "sans-serif";
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 35px; 
+    text-align: center;
+}
+
+.card__text {
+    margin-bottom: 39px;
+    color: #6f6c90;
+    font-family: "DM Sans", "Arial", "sans-serif";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+}
+
+.card__box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.card__label {
+    margin-bottom: 44px;
+    max-width: 284px;
+    width: 100%;
+    color: var(--result-label-color);
+    font-family: "DM Sans", "Arial", "sans-serif";
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 20px;
+}
+
+.card__label--last {
+    margin-bottom: 0;
+}
+
+.card__input {
+    display: block;
+    max-width: 284px;
+    width: 100%;
+    margin-top: 18px;
+    color: var(--result--input-value-value);
+    font-family: "DM Sans", "Arial", "sans-serif";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 20px;
+    padding: 22px 20px 25px;
+    border-radius: 46px;
+    border: 1px solid  var(--result-border-color);
+    background-color: #fff;
+    box-shadow: 0px 2px 6px 0px rgba(19, 18, 66, 0.07);
+}
+
+.card__input--name {
+    background-image: url("../../images/avatar.svg");
+    background-repeat: no-repeat;
+    background-position: right 22px top 20px;
+    background-size: 20px 26px;
+}
+
+.card__input--email {
+    background-image: url("../../images/bigmail.svg");
+    background-repeat: no-repeat;
+    background-position: right 24px top 25px;
+    background-size: 23px 16px;
+}
+
+.card__input--number {
+    background-image: url("../../images/tel.svg");
+    background-repeat: no-repeat;
+    background-position: right 21px top 20px;
+    background-size: 20px 26px;
+}
+
+.card__input--company {
+    background-image: url("../../images/company.svg");
+    background-repeat: no-repeat;
+    background-position: right 25px top 17px;
+    background-size: 20px 26px;
+}
+
+.card__input::placeholder {
+    color: var(--input-placeholder-color);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.carousel-wrapper {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 10px;
+}
+
+.carousel-btn-previous {
+    position:relative  !important;
+    color: #4a3aff !important;
+    text-align: center;
+    font-family: "DM Sans", "Arial", "sans-serif";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 20px;
+    max-width: 192px;
+    width: 100%;
+    height: 60px !important;
+    padding: 19px 10px 21px;
+    border-radius: 66px;
+    border: 1px solid  #4a3aff;
+    background-color: #fff;
+}
+
+.carousel-btn-next {
+    position: relative  !important;
+    height: 60px !important;
+    color: #fff;
+    text-align: center;
+    font-family: "DM Sans", "Arial", "sans-serif";
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 20px;
+    max-width: 192px;
+    width: 100%;
+    padding: 20px 10px 21px 10px;
+    border: 0;
+    border-radius: 56px;
+    background-color: #4a3aff;;
+    box-shadow: 0px 3px 12px 0px rgba(74, 58, 255, 0.18);
+}
+
+.error-span {
+    display: none;
+    position: absolute;
+    top:  110px;
+    left: 10px;
+    color: #ff0707;
+    font-family: "Inter", "Arial", "sans-serif";
+    font-size: 10px;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.card__label {
+    position: relative;
+}
+
+
+@media only screen and (min-width:711px) {
+    .card__box {
+        justify-content: space-between;
+    }
+    
+    .card__title {
+        text-align: start;
+    }
+    
+    .card__text {
+        text-align: start;
+    }
+    
+    .card__label--third {
+        margin-bottom: 0;
+    }
+}

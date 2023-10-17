@@ -1,0 +1,223 @@
+.site-main__register {
+    display: block;
+    padding-top: 59px;
+    padding-bottom: 58px;
+}
+
+.register__inner {
+    max-width: 500px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 30px 30px 30px;
+    border-radius: 20px;
+    border: 2px solid #dbdbdb;
+    background: #fff;
+    box-shadow: 0px 0px 0px 4px rgba(0, 0, 0, 0.05);
+}
+
+.register__title {
+    margin-bottom: 5px;
+    color: #000;
+    text-align: center;
+    font-family: "Inter", "Arial", "sans-serif";
+    font-size: 32px;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.register__text {
+    margin-bottom: 35px;
+    color: #000;
+    text-align: center;
+    font-family: "Inter", "Arial", "sans-serif";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.form {
+    max-width: 440px;
+    width: 100%;
+}
+
+.box {
+    max-width: 440px;
+    width: 100%;
+    position: relative;
+    margin-bottom: 25px;
+    display: block;
+}
+
+.form__input {
+    max-width: 440px;
+    width: 100%;
+    padding: 14px 16px;
+    display: block;
+    border-radius: 8px;
+    border: 1px solid var(--input-placeholder-color);
+    background: #fff;
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.05);
+    color: var(--input-placeholder-color);
+    font-family: "Inter", "Arial", "sans-serif";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.password__btn {
+    position: absolute;
+    right: 18px;
+    top: 14px;
+    border: 0;
+    width: 18px;
+    height: 18px;
+    background-color: transparent;
+    color: var(--eye-btn-color);
+}
+
+.form__label {
+    position: absolute;
+    top: -8px;
+    left: 17px;
+    padding: 0 5px;
+    background-color: #fff;
+    color: var(--input-label-color);
+    font-family: "Inter", "Arial", "sans-serif";
+    font-size: 12px;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.form__input::placeholder {
+    color: var(--input-placeholder-color);
+    font-family: "Inter", "Arial", "sans-serif";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.form__select {
+    display: block;
+    max-width: 440px;
+    width: 100%;
+    padding: 14px 16px;
+    margin-bottom: 25px;
+    border-radius: 8px;
+    border: 1px solid var(--input-placeholder-color);
+    background: #fff;
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.05);
+    appearance: none;
+    background-image: url("../../images/CaretDown.svg");
+    background-size: 18px;
+    background-repeat: no-repeat;
+    background-position: right 12px top 14px;
+}
+
+.form__select::placeholder {
+    color: var(--input-placeholder-color);
+    font-family: "Inter", "Arial", "sans-serif";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.form__check-box {
+    display: flex;
+    column-gap: 12px;
+    align-items: start;
+    margin-bottom: 35px;
+}
+
+.form__check {
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+}
+
+.form__check-text {
+    color: #000;
+    font-family: "Inter", "Arial", "sans-serif";
+    font-size: 15px;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.form__btn {
+    display: block;
+    max-width: 380px;
+    width: 100%;
+    padding: 20px 60px;
+    border: 0;
+    border-radius: 8px;
+    background-color: #2c28e1;
+    color: #fff;
+    text-align: center;
+    font-family: "Inter", "Arial", "sans-serif";
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 28px;
+}
+
+.form__check-span {
+    font-weight: 500;
+    text-decoration: underline;
+}
+
+.email-img {
+    position: absolute;
+    right: 12px;
+    top: 14px;
+    border: 0;
+    width: 18px;
+    height: 18px;
+    background-color: transparent;
+    color: var(--eye-btn-color);
+}
+
+.select-wrapper {
+    position: relative;
+}
+
+.select__span {
+    position: absolute;
+    top: -8px;
+    left: 17px;
+    padding: 0 5px;
+    background-color: #fff;
+    color: var(--input-label-color);
+    font-family: "Inter", "Arial", "sans-serif";
+    font-size: 12px;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.span {
+    display: none;
+    position: absolute;
+    bottom: -10px;
+    left: 10px;
+    color: #ff0707;
+    font-family: "Inter", "Arial", "sans-serif";
+    font-size: 8px;
+    font-weight: 700;
+    line-height: normal;
+}
+
+@media only screen and (min-width: 540px) {
+
+    .site-main__register {
+        padding-bottom: 158px;
+    }
+
+    .register__inner {
+        padding: 60px 60px 45px;
+    }
+    
+    .form__input-wrapper {
+        display: flex;
+        column-gap: 25px;
+    }
+}
+
+
+

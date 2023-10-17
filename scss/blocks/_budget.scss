@@ -1,0 +1,47 @@
+.budget-box {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    row-gap: 21px;
+}
+
+.budget__item {
+    display: block;
+    display: flex;
+    align-items: center;
+    column-gap: 12.5px;
+    padding: 45px 32px;
+    max-width: 284px;
+    width: 100%;
+    border-radius: 16px;
+    border: 2px solid  #eff0f6;
+    background-color: #fff;
+    box-shadow: 0px 2px 6px 0px rgba(19, 18, 66, 0.07);
+}
+
+.budget__input {
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+}
+
+.budget__input:checked ~ .budget__item {
+    border-radius: 16px;
+    border: 2px solid  #4a3aff;
+    background-color: #fff;
+    box-shadow: 0px 4px 10px 0px rgba(31, 37, 89, 0.07), 0px 2px 11px 0px rgba(69, 65, 164, 0.06);
+}
+
+.budget__label {
+    color: #170f49;;
+    font-family: "DM Sans", "Arial", "sans-serif";
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 20px;
+}
+
+@media only screen and (min-width: 710px) {
+    .budget-box {
+        justify-content: space-between;
+    }
+}
